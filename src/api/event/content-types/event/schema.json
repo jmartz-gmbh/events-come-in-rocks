@@ -22,6 +22,14 @@
     "end": {
       "type": "datetime",
       "required": true
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
